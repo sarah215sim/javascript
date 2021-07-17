@@ -33,3 +33,5 @@ var book = {title : "JS책"}; //오브젝트 생성
 var varName = "title"; // name을 변수로 할당
 book[varName] = "HTML책"; // [name변수] = value 로 추가,변경
 console.log(book);
+
+// 실행결과 {title: "HTML책"}
