@@ -16,4 +16,4 @@ function getPoint(){
 var result = getPoint(); //여기서 함수 호출 > 변수에 할당
 console.log(result);
 
-// 실행결과가 300
+// 실행결과 300
