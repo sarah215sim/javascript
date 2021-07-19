@@ -16,3 +16,11 @@ console.log(oneObj.valueOf());
 var twoObj = new Number("456"); // 인스턴스를 생성하면서 고유의 이름을 갖고 있음 
 console.log(twoObj.valueOf());
 // 실행결과 456
+
+
+/* Number()와 new Number()의 차이 */
+var num = Number("123");
+var instance = new Number("123");
+console.log(typeof num);
+console.log(typeof instance);
+// 실행결과 num = number / instance = object
